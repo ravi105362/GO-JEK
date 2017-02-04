@@ -1,4 +1,27 @@
-hello
-I did
-sshd in your PC
-thanks
+Jan 29 06:29:13 utilities CRON[21793]: pam_unix(cron:session): session closed for user root
+Jan 29 06:29:13 utilities sshguard[1342]: Reloading rotated file /var/log/auth.log.
+Jan 29 06:40:05 utilities sshd[22274]: Received disconnect from 112.85.42.46: 11:  [preauth]
+Jan 29 06:46:37 utilities sshd[22432]: Invalid user user from 207.46.130.228
+Jan 29 06:46:37 utilities sshd[22432]: input_userauth_request: invalid user user [preauth]
+Jan 29 13:05:16 utilities sshd[28598]: Disconnecting: Too many authentication failures for root [preauth]
+Jan 20 08:56:11 utilities sshd[28600]: message repeated 2 times: [ fatal: Read from socket failed: Connection reset by peer [preauth]]
+Jan 29 13:05:16 utilities sshd[28600]: Invalid user admin from 201.179.228.167
+Jan 29 13:05:16 utilities sshd[28600]: input_userauth_request: invalid user admin [preauth]
+Jan 29 13:05:17 utilities sshd[28600]: error: maximum authentication attempts exceeded for invalid user admin from 201.179.228.167 port 51368 ssh2 [preauth]
+Jan 29 13:05:17 utilities sshd[28600]: Disconnecting: Too many authentication failures for admin [preauth]
+Jan 20 08:56:13 utilities sshd[28602]: fatal: Read from socket failed: Connection reset by peer [preauth]
+Jan 29 13:05:21 utilities sshd[28602]: error: maximum authentication attempts exceeded for root from 201.179.228.167 port 51379 ssh2 [preauth]
+Jan 29 13:05:21 utilities sshd[28602]: Disconnecting: Too many authentication failures for root [preauth]
+Jan 29 13:22:18 utilities sshd[28883]: Invalid user ubnt from 94.78.196.233
+Jan 29 13:22:18 utilities sshd[28883]: input_userauth_request: invalid user ubnt [preauth]
+Jan 29 13:22:19 utilities sshd[28883]: error: maximum authentication attempts exceeded for invalid user ubnt from 94.78.196.233 port 40659 ssh2 [preauth]
+Jan 29 13:05:16 utilities sshd[28600]: Invalid user admin from 201.179.228.167
+Jan 29 06:46:37 utilities sshd[22432]: Invalid user user from 207.46.130.228
+Jan 29 13:27:53 utilities sshd[28965]: Connection closed by 141.212.122.224 [preauth]
+Jan 29 13:27:53 utilities sshd[28965]: Connection closed by 141.212.122.224 [preauth]
+Jan 29 13:27:53 utilities sshd[28965]: Connection closed by 141.212.122.224 [preauth]
+Jan 29 06:46:37 utilities sshd[22432]: Invalid user user from 207.46.130.228
+Jan 29 06:46:37 utilities sshd[22432]: Invalid user user from 207.46.130.228
+Jan 29 06:46:37 utilities sshd[22432]: Invalid user user from 207.46.130.228
+Jan 29 13:22:18 utilities sshd[28883]: Invalid user ubnt from 94.78.196.233
+Jan 29 14:02:51 utilities sshd[29528]: Invalid user ubnt from 1.171.201.142
