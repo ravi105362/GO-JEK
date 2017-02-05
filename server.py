@@ -2,14 +2,17 @@
 #File Name-server.py                                      #
 #Use - Runs a server to count number of clients under ssh #
 #Written By-Ravi Gupta                                    #
-#Date-4/2/2017                                            #
+#Date-4/2/2017
+#Updated Date-5/2/2017                                    #
 ###########################################################
+
 import socket               
 
-s = socket.socket()         
-host = socket.gethostname() 
-port = 12345                
-s.bind((host, port))        
+TCP_IP = '127.0.0.1' # IP to be changed as required
+TCP_PORT = 12345
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.bind((TCP_IP, TCP_PORT))        
 
 s.listen(5)
 print "Matrix for Login SSH attempts"  
