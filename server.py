@@ -13,11 +13,17 @@ s.bind((host, port))
 
 s.listen(5)
 print "Matrix for Login SSH attempts"  
-number=0        
+number=0
+dict={}        
 while True:
    c, addr = s.accept()     
    c.send('Connected')
-   key=c.recv(1024)
-   number+=1
-   print "*"+ key+" had " +str(number)+ " attempt"
+   host=c.recv(1024)
+   if dict.has_key(host) :
+        val=dict[host]
+        val+=1
+        dict[host]=val
+   else :
+        dict[host]=1
+   print "*"+ host+" had " + str(dict[host]) + " attempt"
    c.close()               
